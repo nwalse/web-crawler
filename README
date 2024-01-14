@@ -1,0 +1,20 @@
+Neel Walse PA 6
+cse13s Pusukuri
+
+
+
+gcc command:
+
+gcc -g crawler.c struct.c url.c curl.c pagedir.c -o crawl -lcurl
+
+
+
+run command:
+
+
+this directory must be made before you run the command
+do this with mkdir data or replace data with something else
+
+./crawl https://engineering.ucsc.edu data 1
+
+you can replace data with any directory name
